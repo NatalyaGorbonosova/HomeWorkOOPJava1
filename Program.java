@@ -16,7 +16,7 @@ public class Program {
         Products masks1 = new Masks("Individual masks", 69.9, 23, 10);
         Products toiletPaper1 = new ToiletPaper("Puppe", 120.5, 45, 8, 3);
         Products nipple1 = new Nipple("Baby Boom", 399.5, 5, 0, true);
-        Products diapers1 = new Diapers("Pampers", 899.9, 3, 1, true, 3, 4, 6);
+        Products diapers1 = new Diapers("Pampers", 899.9, 3, 1, true, 3, 4, 6, "A");
         //System.out.println(bread1.toString());
 
         Products[] allProducts = new Products[] {cheese, bread1, egg1, milk1, lemonade1, masks1, toiletPaper1, nipple1, diapers1};
